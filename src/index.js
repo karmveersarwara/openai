@@ -51,7 +51,7 @@ app.post('/chat',(req,res)=>{
         });
     
 })
-app.listen(8000,()=>{ console.log("server is start on 8000 ");})
+app.listen(()=>{ console.log("server is start  ");})
 
 
     // res.writeHead(200, {'Access-Control-Allow-Origin': '*'});
